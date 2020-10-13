@@ -13,6 +13,6 @@ the transforms themselves are written in c.
 ### NOTE THAT 
 the phase shift of the Hilbert transform is 90 degrees and not - 90 as in MATLAB, 
 as you can check [here](https://it.mathworks.com/help/signal/ref/hilbert.html), comparing the result with the main_example.cpp output.
-To obtain matlab tranform multiply (complex-way intended) the result by EXP(j * PI)
+To obtain matlab tranform multiply the result by EXP(j * PI) = -1.
 
 Jacopo Piccirillo, 13/10/2020
