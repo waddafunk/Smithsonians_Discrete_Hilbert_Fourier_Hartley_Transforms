@@ -42,7 +42,7 @@ int main()
     hilbert(z, 4); // perform hilbert transform of z
     for(int i=0; i<8; i++) // print transformed signal
         std::cout << z[i] << std::endl;
-	std::free(z);
+    std::free(z);
 
     /*NOTE THAT the phase shift of the Hilbert transform is 90 degrees and not - 90 as in MATLAB, 
     as you can check here https://it.mathworks.com/help/signal/ref/hilbert.html 
