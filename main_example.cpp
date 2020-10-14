@@ -13,7 +13,7 @@ extern "C" {
 real part of the output equals the input.
 
 
-CAREFULLY READ COMMENTS OF THE AUTHORS ABOVE THEIR FUNCTIONS IN "transforms.h" BEFORE USING THEM.
+CAREFULLY READ COMMENTS OF THE AUTHORS ABOVE THEIR FUNCTIONS IN "transforms.c" BEFORE USING THEM.
 
 
 I did not write those functions, the Smithsonian Astrophysical Observatory did. 
