@@ -16,4 +16,6 @@ as you can check [here](https://it.mathworks.com/help/signal/ref/hilbert.html), 
 To obtain matlab tranform multiply the output's component orthogonal to the input by EXP(j * PI) = -1, which translates in mutiplying the output's imaginary part 
 by -1 when the input is real.
 
-Jacopo Piccirillo, 13/10/2020
+Jacopo Piccirillo 
+
+13/10/2020
