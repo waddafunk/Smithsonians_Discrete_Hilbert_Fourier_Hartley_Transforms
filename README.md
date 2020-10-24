@@ -1,5 +1,19 @@
 # Smithsonians_Discrete_Hilbert_Fourier_Hartley_Transforms
  An implementation from the Smithsonian Astrophysical Observatory of some notorious transforms ready to use in c/c++
+ 
+## "Smithsonians_Discrete_Hilbert_Fourier_Hartley_Transforms/am_sysdep.h" from the authors: 
+
+* For optimum performance, the default processor data cache size
+ settings here can be overridden by target-specific definitions
+ supplied at compile time.
+ 
+ * Line-by-line and CIA computations are blocked to fit in L1
+  cache.  If the cache size is set to 0, cache blocking is
+  turned off.
+ 
+  * For FFTs and FHTs, the L1 cache size setting controls the
+  point at which the computation switches over from recursive
+  to iterative.
 
 ### CAREFULLY READ COMMENTS OF THE AUTHORS ABOVE THEIR FUNCTIONS IN "transforms.c" BEFORE USING THEM.
 
